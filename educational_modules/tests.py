@@ -71,4 +71,3 @@ class LessonsTestCase(APITestCase):
             reverse('educational_modules:lesson-retrieve', kwargs={'pk': self.lessons.id}),
         )
         self.assertEqual(response.status_code, status.HTTP_200_OK)
-
