@@ -1,10 +1,7 @@
-
-
 from django.urls import path
 from educational_modules.apps import EducationalModulesConfig
 from educational_modules.views import EducationListAPIView, EducationCreateAPIView, EducationRetrieveAPIView, \
     EducationUpdateAPIView, EducationDestroyAPIView
-
 
 
 app_name = EducationalModulesConfig.name
